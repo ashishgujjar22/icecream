@@ -1,0 +1,194 @@
+*,html,:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    color: aliceblue;
+    font-family: rowdies,sans-serif;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    gap:24rem;
+    align-items: center;
+    height: 7vw;
+    padding: 0px 8rem;
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+
+}
+#hero{
+    background: radial-gradient(circle at center, #5c3a24 0%, #3a2417 70%, #2a1a11 100%);
+    height: 100vh;
+    
+}
+ul{
+        display: flex;
+        gap:5rem;
+        align-items: center;
+        /* justify-content: space-between; */
+}
+ li{
+    font-size: 1.8rem;
+
+
+    list-style: none;
+}
+#logo h1{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+/* #main{
+    margin-top: 1vw;
+    position: relative;
+} */
+#ice img{
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 24vw;
+    top: 8vw;
+    z-index: 99;
+
+}
+#herotext h2{
+font-size: 16rem;
+position: relative;
+left: -9vw;
+top:15vw;
+z-index: 0;
+}
+.chat img{
+    width: 12vw;
+    height: 12vw;
+
+}
+#chat1{
+    position: absolute;
+    top: 22vw;
+    left: 10vw;
+}
+#chat2{
+    position: absolute;
+    top: 6vw;
+    right: 5vw;
+
+}
+#chat3
+{
+    position: absolute;
+    top: 25vw;
+    right: 15vw;
+}
+#headtext{
+    position: relative;
+    top: 27vw;
+    left: -12vw;
+}
+#headtext h3{
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+#headtext p{
+    font-size: 1.8rem;
+    width: 20vw;
+}
+#section1{
+    height: 85vh;
+    background: linear-gradient(to bottom, #4b2e1f, #2f1a12);
+    display: flex;
+}
+#section2{
+    height: 85vh;
+    background: linear-gradient(to bottom, #563728, #3f2218)
+}
+#section1-img{
+    width: 50%;
+}
+#section1-img svg{
+    width: 50%;
+    position: relative;
+    top: 13vw;
+    left: 5vw;
+}
+#section1-text{
+    position:relative;
+    top: 30%;
+    left:20%;
+}
+#section1-text h3{
+    font-size: 3.6rem;
+}
+#section1-text p{
+    font-size: 1.8rem;
+    width: 25vw;
+line-height:4rem;
+
+}
+.contain{
+    display: flex;
+    
+}
+.card{
+width: 52rem;
+height: 32rem;
+border-radius: 0 100% 100% 0;
+    transform: rotate(270deg);
+    margin-top: 12vw;
+    position: relative;
+}
+#card1{
+    background: linear-gradient(to bottom, #f2b4c8, #ffffff);
+    margin-left: 15rem;
+    
+}
+#card2{
+    background: linear-gradient(to bottom,#3f2312, #fff);
+}
+#card3{
+    background: linear-gradient(to bottom,#2eb52c82 ,#fff);
+}
+#card1 img{
+    rotate:90deg;
+    scale: 0.25;
+    position:absolute;
+    top: -22vw;
+    right: -22vw;
+}
+#card2 img{
+    rotate:90deg;
+    scale: 0.45;
+    position: absolute;
+    top: -8rem;
+    right: -22rem;
+}
+#card3 img{
+    rotate:90deg;
+    scale: 0.6;
+    position: absolute;
+    top: -4rem;
+    right: -6vw;
+}
+.card h3{
+    font-size: 3.6rem;
+    padding: 1.8rem;
+}
+#stick2{
+    position:absolute;
+    
+    width: 40vw;
+    height: 50vw;
+
+
+  
+
+
+}
+
+
+
+
