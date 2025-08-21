@@ -79,6 +79,7 @@ li {
 .chat img {
   width: 12vw;
   height: 12vw;
+  z-index: 8;
 }
 #chat1 {
   position: absolute;
